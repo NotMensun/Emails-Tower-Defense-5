@@ -109,6 +109,7 @@ popping = Sound("Sounds\\popping.ogg", 1)
 oof = Sound("Sounds\\oof.wav", 2)
 lose = Sound("Sounds\\lose.ogg", 3)
 
+
 # starting screen
 while not game.over:
    game.processInput()
@@ -141,6 +142,7 @@ game.over = False
 
 def sniperMover(emailX):
    global emailsHit
+   global gameOverEnd
    for index in range(100):
        snipers[index].move()
        if snipers[index].collidedWith(emailX):
@@ -168,6 +170,7 @@ def sniperMover(emailX):
                wall.visible = True
                end.visible = True
                lose.play()
+                  
 
 
 def superMover(emailX):
@@ -231,7 +234,7 @@ def playGame1(coords):
            bk.draw()
            wood.draw()
            drawHeart()
-           game.drawText("Wave 1", 623, 32)
+           game.drawText("Wave 1", 623, 32, Font(red,24))
            if keys.Pressed[K_SPACE]:
               emailS.visible = False
               emailInvis.visible = True
@@ -266,7 +269,7 @@ def playGame2(coords):
            bk.draw()
            wood.draw()
            drawHeart()
-           game.drawText("Wave 2", 623, 32)
+           game.drawText("Wave 2", 623, 32, Font(red,24))
            if keys.Pressed[K_SPACE]:
               emailS.visible = False
               emailInvis.visible = True
@@ -301,7 +304,7 @@ def playGame3(coords):
            bk.draw()
            wood.draw()
            drawHeart()
-           game.drawText("Wave 3", 623, 32)
+           game.drawText("Wave 3", 623, 32, Font(red,24))
            if keys.Pressed[K_SPACE]:
               emailS.visible = False
               emailInvis.visible = True
@@ -351,10 +354,15 @@ if heart3.visible:
 game.over = False
 game.stopMusic()
 
+gameEnder = 0
+
 #win
 while not game.over and heart3.visible:
    wall.visible = True
    wall.draw()
    win.draw()
+   gameEnder += 1
+   if gameEnder >= 100:
+      game.over = True
    game.update(30)
 game.quit()
