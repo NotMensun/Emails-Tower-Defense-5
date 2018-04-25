@@ -1,10 +1,10 @@
 # Emails-Tower-Defense-5
 <p>Game that I created...<p>
-<img src="https://github.com/NotMensun/Emails-Tower-Defense-5/blob/master/Ninja%20Mangos/__pycache__/title.PNG" width = 300>
+<img src="https://github.com/NotMensun/Emails-Tower-Defense-5/blob/master/Ninja%20Mangos/__pycache__/title.PNG" width = 300 align = "left">
 <p>So These are the Insutrctions<p>
-<img src="https://github.com/NotMensun/Emails-Tower-Defense-5/blob/master/Ninja%20Mangos/__pycache__/intro.PNG" width = 300 align = right>
+<img src="https://github.com/NotMensun/Emails-Tower-Defense-5/blob/master/Ninja%20Mangos/__pycache__/intro.PNG" width = 300>
 <p>This is Wave One<p>
-<img src="https://github.com/NotMensun/Emails-Tower-Defense-5/blob/master/Ninja%20Mangos/__pycache__/Snip%234.PNG" width = 300 align = left>
+<img src="https://github.com/NotMensun/Emails-Tower-Defense-5/blob/master/Ninja%20Mangos/__pycache__/Snip%234.PNG" width = 300>
 <p>This is Wave Two<p>
 <img src="https://github.com/NotMensun/Emails-Tower-Defense-5/blob/master/Ninja%20Mangos/__pycache__/Snip%235.PNG" width = 300>
 <p>This is Wave Three<p>
