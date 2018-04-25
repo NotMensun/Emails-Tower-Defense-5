@@ -1,6 +1,6 @@
 # Emails-Tower-Defense-5
 <p>Game that I created...<p>
-<img src="https://github.com/NotMensun/Emails-Tower-Defense-5/blob/master/Ninja%20Mangos/__pycache__/title.PNG">
+<img src="https://github.com/NotMensun/Emails-Tower-Defense-5/blob/master/Ninja%20Mangos/__pycache__/title.PNG" width = 300 align = left>
 <p>So These are the Insutrctions<p>
 <img src="https://github.com/NotMensun/Emails-Tower-Defense-5/blob/master/Ninja%20Mangos/__pycache__/intro.PNG">
 <p>This is Wave One<p>
